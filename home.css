@@ -9,12 +9,31 @@
 	font-family: "logo";
 	src: url('blastimo.ttf');
 }
+
 header h1{
 	font-size: 4em;
 	font-family: "logo";
 	margin-top: 50px;
 	margin-bottom: 50px;
 	text-align: center;
+}header .signin-box a{
+	height: 30px;
+	width: 100px;
+	background-color: #b2b1b1;
+	border:1px solid none;
+	border-radius: 150px;
+	padding: 5px;
+	text-align: center;
+	color: #403E3E;
+	text-decoration: none;
+	position: absolute;
+	top: 30px;
+	left: 90%;
+}
+header .signin-box a:hover{
+	background-color: #403E3E;
+	color: #b2b1b1;
+	transition: 0.5s;
 }
 header .signin-box a{
 	height: 30px;
@@ -131,3 +150,35 @@ footer p{
 	line-height: 2em;
 	padding-top: 40px;
 	padding-bottom: 40px;
+<<<<<<< HEAD
+=======
+}
+.container{
+	background-color: #fff;
+	text-align: center;
+	
+}
+.container ul li{
+	display: inline-block;
+}
+.container i{
+	padding: 20px;
+	border: 1px solid none;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	font-size: 30px;
+	background-color: #b2b1b1;
+	color: #403E3E;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.container i:hover{
+	color: #b2b1b1;
+	background-color: #403E3E;
+	transition: 0.5s;
+}
+>>>>>>> 0292854a40365450e1667ca88b446408fa0804c2
