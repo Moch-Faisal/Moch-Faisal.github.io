@@ -9,7 +9,14 @@
 	font-family: "logo";
 	src: url('blastimo.ttf');
 }
-header .signin-box a{
+
+header h1{
+	font-size: 4em;
+	font-family: "logo";
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}header .signin-box a{
 	height: 30px;
 	width: 100px;
 	background-color: #b2b1b1;
@@ -27,13 +34,6 @@ header .signin-box a:hover{
 	background-color: #403E3E;
 	color: #b2b1b1;
 	transition: 0.5s;
-}
-header h1{
-	font-size: 4em;
-	font-family: "logo";
-	margin-top: 50px;
-	margin-bottom: 50px;
-	text-align: center;
 }
 header ul{
 	width: 100%;
